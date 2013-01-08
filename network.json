@@ -1,0 +1,906 @@
+{
+    "nodes": [
+        {
+            "name": "Agriculture",
+            "id": "827"
+        },
+        {
+            "name": "Economy",
+            "id": "770"
+        },
+        {
+            "name": "Industry",
+            "id": "755"
+        },
+        {
+            "name": "Internal Markets",
+            "id": "745"
+        },
+        {
+            "name": "Air Pollution",
+            "id": "783"
+        },
+        {
+            "name": "Biodiversity",
+            "id": "514"
+        },
+        {
+            "name": "Climate change",
+            "id": "752"
+        },
+        {
+            "name": "Energy",
+            "id": "760"
+        },
+        {
+            "name": "Natural resources",
+            "id": "823"
+        },
+        {
+            "name": "Water",
+            "id": "801"
+        },
+        {
+            "name": "Waste",
+            "id": "300"
+        },
+        {
+            "name": "Science and Research",
+            "id": "799"
+        },
+        {
+            "name": "Administration",
+            "id": "320"
+        },
+        {
+            "name": "Regulatory policies",
+            "id": "828"
+        },
+        {
+            "name": "Sustainable Development",
+            "id": "145"
+        }
+    ],
+    "links": [
+        {
+            "source": 145,
+            "target": 827
+        },
+        {
+            "source": 145,
+            "target": 770
+        },
+        {
+            "source": 145,
+            "target": 755
+        },
+        {
+            "source": 145,
+            "target": 745
+        },
+        {
+            "source": 145,
+            "target": 783
+        },
+        {
+            "source": 145,
+            "target": 514
+        },
+        {
+            "source": 145,
+            "target": 752
+        },
+        {
+            "source": 145,
+            "target": 760
+        },
+        {
+            "source": 145,
+            "target": 823
+        },
+        {
+            "source": 145,
+            "target": 801
+        },
+        {
+            "source": 145,
+            "target": 300
+        },
+        {
+            "source": 145,
+            "target": 799
+        },
+        {
+            "source": 145,
+            "target": 320
+        },
+        {
+            "source": 145,
+            "target": 828
+        },
+        {
+            "source": 828,
+            "target": 827
+        },
+        {
+            "source": 828,
+            "target": 770
+        },
+        {
+            "source": 828,
+            "target": 755
+        },
+        {
+            "source": 828,
+            "target": 745
+        },
+        {
+            "source": 828,
+            "target": 783
+        },
+        {
+            "source": 828,
+            "target": 514
+        },
+        {
+            "source": 828,
+            "target": 752
+        },
+        {
+            "source": 828,
+            "target": 760
+        },
+        {
+            "source": 828,
+            "target": 823
+        },
+        {
+            "source": 828,
+            "target": 801
+        },
+        {
+            "source": 828,
+            "target": 300
+        },
+        {
+            "source": 828,
+            "target": 799
+        },
+        {
+            "source": 828,
+            "target": 320
+        },
+        {
+            "source": 828,
+            "target": 145
+        },
+        {
+            "source": 320,
+            "target": 827
+        },
+        {
+            "source": 320,
+            "target": 770
+        },
+        {
+            "source": 320,
+            "target": 755
+        },
+        {
+            "source": 320,
+            "target": 745
+        },
+        {
+            "source": 320,
+            "target": 783
+        },
+        {
+            "source": 320,
+            "target": 514
+        },
+        {
+            "source": 320,
+            "target": 752
+        },
+        {
+            "source": 320,
+            "target": 760
+        },
+        {
+            "source": 320,
+            "target": 823
+        },
+        {
+            "source": 320,
+            "target": 801
+        },
+        {
+            "source": 320,
+            "target": 300
+        },
+        {
+            "source": 320,
+            "target": 799
+        },
+        {
+            "source": 320,
+            "target": 828
+        },
+        {
+            "source": 320,
+            "target": 145
+        },
+        {
+            "source": 799,
+            "target": 827
+        },
+        {
+            "source": 799,
+            "target": 770
+        },
+        {
+            "source": 799,
+            "target": 755
+        },
+        {
+            "source": 799,
+            "target": 745
+        },
+        {
+            "source": 799,
+            "target": 783
+        },
+        {
+            "source": 799,
+            "target": 514
+        },
+        {
+            "source": 799,
+            "target": 752
+        },
+        {
+            "source": 799,
+            "target": 760
+        },
+        {
+            "source": 799,
+            "target": 823
+        },
+        {
+            "source": 799,
+            "target": 801
+        },
+        {
+            "source": 799,
+            "target": 300
+        },
+        {
+            "source": 799,
+            "target": 320
+        },
+        {
+            "source": 799,
+            "target": 828
+        },
+        {
+            "source": 799,
+            "target": 145
+        },
+        {
+            "source": 300,
+            "target": 827
+        },
+        {
+            "source": 300,
+            "target": 770
+        },
+        {
+            "source": 300,
+            "target": 755
+        },
+        {
+            "source": 300,
+            "target": 745
+        },
+        {
+            "source": 300,
+            "target": 783
+        },
+        {
+            "source": 300,
+            "target": 514
+        },
+        {
+            "source": 300,
+            "target": 752
+        },
+        {
+            "source": 300,
+            "target": 760
+        },
+        {
+            "source": 300,
+            "target": 823
+        },
+        {
+            "source": 300,
+            "target": 801
+        },
+        {
+            "source": 300,
+            "target": 799
+        },
+        {
+            "source": 300,
+            "target": 320
+        },
+        {
+            "source": 300,
+            "target": 828
+        },
+        {
+            "source": 300,
+            "target": 145
+        },
+        {
+            "source": 801,
+            "target": 827
+        },
+        {
+            "source": 801,
+            "target": 770
+        },
+        {
+            "source": 801,
+            "target": 755
+        },
+        {
+            "source": 801,
+            "target": 745
+        },
+        {
+            "source": 801,
+            "target": 783
+        },
+        {
+            "source": 801,
+            "target": 514
+        },
+        {
+            "source": 801,
+            "target": 752
+        },
+        {
+            "source": 801,
+            "target": 760
+        },
+        {
+            "source": 801,
+            "target": 823
+        },
+        {
+            "source": 801,
+            "target": 300
+        },
+        {
+            "source": 801,
+            "target": 799
+        },
+        {
+            "source": 801,
+            "target": 320
+        },
+        {
+            "source": 801,
+            "target": 828
+        },
+        {
+            "source": 801,
+            "target": 145
+        },
+        {
+            "source": 823,
+            "target": 827
+        },
+        {
+            "source": 823,
+            "target": 770
+        },
+        {
+            "source": 823,
+            "target": 755
+        },
+        {
+            "source": 823,
+            "target": 745
+        },
+        {
+            "source": 823,
+            "target": 783
+        },
+        {
+            "source": 823,
+            "target": 514
+        },
+        {
+            "source": 823,
+            "target": 752
+        },
+        {
+            "source": 823,
+            "target": 760
+        },
+        {
+            "source": 823,
+            "target": 801
+        },
+        {
+            "source": 823,
+            "target": 300
+        },
+        {
+            "source": 823,
+            "target": 799
+        },
+        {
+            "source": 823,
+            "target": 320
+        },
+        {
+            "source": 823,
+            "target": 828
+        },
+        {
+            "source": 823,
+            "target": 145
+        },
+        {
+            "source": 760,
+            "target": 827
+        },
+        {
+            "source": 760,
+            "target": 770
+        },
+        {
+            "source": 760,
+            "target": 755
+        },
+        {
+            "source": 760,
+            "target": 745
+        },
+        {
+            "source": 760,
+            "target": 783
+        },
+        {
+            "source": 760,
+            "target": 514
+        },
+        {
+            "source": 760,
+            "target": 752
+        },
+        {
+            "source": 760,
+            "target": 823
+        },
+        {
+            "source": 760,
+            "target": 801
+        },
+        {
+            "source": 760,
+            "target": 300
+        },
+        {
+            "source": 760,
+            "target": 799
+        },
+        {
+            "source": 760,
+            "target": 320
+        },
+        {
+            "source": 760,
+            "target": 828
+        },
+        {
+            "source": 760,
+            "target": 145
+        },
+        {
+            "source": 752,
+            "target": 827
+        },
+        {
+            "source": 752,
+            "target": 770
+        },
+        {
+            "source": 752,
+            "target": 755
+        },
+        {
+            "source": 752,
+            "target": 745
+        },
+        {
+            "source": 752,
+            "target": 783
+        },
+        {
+            "source": 752,
+            "target": 514
+        },
+        {
+            "source": 752,
+            "target": 760
+        },
+        {
+            "source": 752,
+            "target": 823
+        },
+        {
+            "source": 752,
+            "target": 801
+        },
+        {
+            "source": 752,
+            "target": 300
+        },
+        {
+            "source": 752,
+            "target": 799
+        },
+        {
+            "source": 752,
+            "target": 320
+        },
+        {
+            "source": 752,
+            "target": 828
+        },
+        {
+            "source": 752,
+            "target": 145
+        },
+        {
+            "source": 514,
+            "target": 827
+        },
+        {
+            "source": 514,
+            "target": 770
+        },
+        {
+            "source": 514,
+            "target": 755
+        },
+        {
+            "source": 514,
+            "target": 745
+        },
+        {
+            "source": 514,
+            "target": 783
+        },
+        {
+            "source": 514,
+            "target": 752
+        },
+        {
+            "source": 514,
+            "target": 760
+        },
+        {
+            "source": 514,
+            "target": 823
+        },
+        {
+            "source": 514,
+            "target": 801
+        },
+        {
+            "source": 514,
+            "target": 300
+        },
+        {
+            "source": 514,
+            "target": 799
+        },
+        {
+            "source": 514,
+            "target": 320
+        },
+        {
+            "source": 514,
+            "target": 828
+        },
+        {
+            "source": 514,
+            "target": 145
+        },
+        {
+            "source": 783,
+            "target": 827
+        },
+        {
+            "source": 783,
+            "target": 770
+        },
+        {
+            "source": 783,
+            "target": 755
+        },
+        {
+            "source": 783,
+            "target": 745
+        },
+        {
+            "source": 783,
+            "target": 514
+        },
+        {
+            "source": 783,
+            "target": 752
+        },
+        {
+            "source": 783,
+            "target": 760
+        },
+        {
+            "source": 783,
+            "target": 823
+        },
+        {
+            "source": 783,
+            "target": 801
+        },
+        {
+            "source": 783,
+            "target": 300
+        },
+        {
+            "source": 783,
+            "target": 799
+        },
+        {
+            "source": 783,
+            "target": 320
+        },
+        {
+            "source": 783,
+            "target": 828
+        },
+        {
+            "source": 783,
+            "target": 145
+        },
+        {
+            "source": 745,
+            "target": 827
+        },
+        {
+            "source": 745,
+            "target": 770
+        },
+        {
+            "source": 745,
+            "target": 755
+        },
+        {
+            "source": 745,
+            "target": 783
+        },
+        {
+            "source": 745,
+            "target": 514
+        },
+        {
+            "source": 745,
+            "target": 752
+        },
+        {
+            "source": 745,
+            "target": 760
+        },
+        {
+            "source": 745,
+            "target": 823
+        },
+        {
+            "source": 745,
+            "target": 801
+        },
+        {
+            "source": 745,
+            "target": 300
+        },
+        {
+            "source": 745,
+            "target": 799
+        },
+        {
+            "source": 745,
+            "target": 320
+        },
+        {
+            "source": 745,
+            "target": 828
+        },
+        {
+            "source": 745,
+            "target": 145
+        },
+        {
+            "source": 755,
+            "target": 827
+        },
+        {
+            "source": 755,
+            "target": 770
+        },
+        {
+            "source": 755,
+            "target": 745
+        },
+        {
+            "source": 755,
+            "target": 783
+        },
+        {
+            "source": 755,
+            "target": 514
+        },
+        {
+            "source": 755,
+            "target": 752
+        },
+        {
+            "source": 755,
+            "target": 760
+        },
+        {
+            "source": 755,
+            "target": 823
+        },
+        {
+            "source": 755,
+            "target": 801
+        },
+        {
+            "source": 755,
+            "target": 300
+        },
+        {
+            "source": 755,
+            "target": 799
+        },
+        {
+            "source": 755,
+            "target": 320
+        },
+        {
+            "source": 755,
+            "target": 828
+        },
+        {
+            "source": 755,
+            "target": 145
+        },
+        {
+            "source": 770,
+            "target": 827
+        },
+        {
+            "source": 770,
+            "target": 755
+        },
+        {
+            "source": 770,
+            "target": 745
+        },
+        {
+            "source": 770,
+            "target": 783
+        },
+        {
+            "source": 770,
+            "target": 514
+        },
+        {
+            "source": 770,
+            "target": 752
+        },
+        {
+            "source": 770,
+            "target": 760
+        },
+        {
+            "source": 770,
+            "target": 823
+        },
+        {
+            "source": 770,
+            "target": 801
+        },
+        {
+            "source": 770,
+            "target": 300
+        },
+        {
+            "source": 770,
+            "target": 799
+        },
+        {
+            "source": 770,
+            "target": 320
+        },
+        {
+            "source": 770,
+            "target": 828
+        },
+        {
+            "source": 770,
+            "target": 145
+        },
+        {
+            "source": 827,
+            "target": 770
+        },
+        {
+            "source": 827,
+            "target": 755
+        },
+        {
+            "source": 827,
+            "target": 745
+        },
+        {
+            "source": 827,
+            "target": 783
+        },
+        {
+            "source": 827,
+            "target": 514
+        },
+        {
+            "source": 827,
+            "target": 752
+        },
+        {
+            "source": 827,
+            "target": 760
+        },
+        {
+            "source": 827,
+            "target": 823
+        },
+        {
+            "source": 827,
+            "target": 801
+        },
+        {
+            "source": 827,
+            "target": 300
+        },
+        {
+            "source": 827,
+            "target": 799
+        },
+        {
+            "source": 827,
+            "target": 320
+        },
+        {
+            "source": 827,
+            "target": 828
+        },
+        {
+            "source": 827,
+            "target": 145
+        }
+    ]
+}

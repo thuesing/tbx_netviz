@@ -65,9 +65,16 @@ foreach ($nids as $id) {
 
 } // foreach ($nids as $id) 
 
-print_r($nodes);
+//print_r($nodes);
 
-print_r($links);
+//print_r($links);
+
+$json = array(
+	'nodes' => $nodes,
+	'links' => $links
+	);
+$json = drupal_json_encode($json);
+print_r($json);
 
 
 
