@@ -45,7 +45,7 @@ foreach ($nids as $id) { // node entries and edges
 			'id' => $val->tid,
       		'artist' => $val->tid
 	    );
-	    $nodes[] = $term;
+	    $nodes[$val->name] = $term; // single val per node
 	    $terms[$val->tid] = $val->name;
 	}
 
@@ -72,6 +72,8 @@ foreach ($nids as $id) { // node entries and edges
 } // foreach ($nids as $id) 
 
 // Tag count
+$nodes = array_values($nodes);
+
 foreach ($nodes as &$term) {
         $count = $tag_count[$term['name']] ;
         $term['match'] = 1;

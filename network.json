@@ -106,13 +106,6 @@
             "playcount": 16000000
         },
         {
-            "name": "Agriculture",
-            "id": "827",
-            "artist": "827",
-            "match": 1,
-            "playcount": 5000000
-        },
-        {
             "name": "Food",
             "id": "813",
             "artist": "813",
@@ -127,13 +120,6 @@
             "playcount": 2000000
         },
         {
-            "name": "Natural resources",
-            "id": "823",
-            "artist": "823",
-            "match": 1,
-            "playcount": 6000000
-        },
-        {
             "name": "ENVIRONMENTAL POLICIES",
             "id": "368",
             "artist": "368",
@@ -141,116 +127,11 @@
             "playcount": 5000000
         },
         {
-            "name": "ENVIRONMENTAL POLICIES",
-            "id": "368",
-            "artist": "368",
-            "match": 1,
-            "playcount": 5000000
-        },
-        {
-            "name": "Sustainable Development",
-            "id": "145",
-            "artist": "145",
-            "match": 1,
-            "playcount": 16000000
-        },
-        {
-            "name": "Waste",
-            "id": "300",
-            "artist": "300",
-            "match": 1,
-            "playcount": 5000000
-        },
-        {
-            "name": "Sustainable Development",
-            "id": "145",
-            "artist": "145",
-            "match": 1,
-            "playcount": 16000000
-        },
-        {
             "name": "Finance and tax",
             "id": "117",
             "artist": "117",
             "match": 1,
             "playcount": 4000000
-        },
-        {
-            "name": "Waste",
-            "id": "300",
-            "artist": "300",
-            "match": 1,
-            "playcount": 5000000
-        },
-        {
-            "name": "Sustainable Development",
-            "id": "145",
-            "artist": "145",
-            "match": 1,
-            "playcount": 16000000
-        },
-        {
-            "name": "Finance and tax",
-            "id": "117",
-            "artist": "117",
-            "match": 1,
-            "playcount": 4000000
-        },
-        {
-            "name": "Waste",
-            "id": "300",
-            "artist": "300",
-            "match": 1,
-            "playcount": 5000000
-        },
-        {
-            "name": "Sustainable Development",
-            "id": "145",
-            "artist": "145",
-            "match": 1,
-            "playcount": 16000000
-        },
-        {
-            "name": "Finance and tax",
-            "id": "117",
-            "artist": "117",
-            "match": 1,
-            "playcount": 4000000
-        },
-        {
-            "name": "Waste",
-            "id": "300",
-            "artist": "300",
-            "match": 1,
-            "playcount": 5000000
-        },
-        {
-            "name": "Sustainable Development",
-            "id": "145",
-            "artist": "145",
-            "match": 1,
-            "playcount": 16000000
-        },
-        {
-            "name": "Finance and tax",
-            "id": "117",
-            "artist": "117",
-            "match": 1,
-            "playcount": 4000000
-        },
-        {
-            "name": "ENVIRONMENTAL POLICIES",
-            "id": "368",
-            "artist": "368",
-            "match": 1,
-            "playcount": 5000000
-        },
-        {
-            "name": "Sustainable Development",
-            "id": "145",
-            "artist": "145",
-            "match": 1,
-            "playcount": 16000000
         },
         {
             "name": "SECTORAL POLICIES",
@@ -260,93 +141,9 @@
             "playcount": 1000000
         },
         {
-            "name": "ENVIRONMENTAL POLICIES",
-            "id": "368",
-            "artist": "368",
-            "match": 1,
-            "playcount": 5000000
-        },
-        {
-            "name": "Climate change",
-            "id": "752",
-            "artist": "752",
-            "match": 1,
-            "playcount": 5000000
-        },
-        {
-            "name": "Energy",
-            "id": "760",
-            "artist": "760",
-            "match": 1,
-            "playcount": 4000000
-        },
-        {
-            "name": "Biodiversity",
-            "id": "514",
-            "artist": "514",
-            "match": 1,
-            "playcount": 5000000
-        },
-        {
-            "name": "Sustainable Development",
-            "id": "145",
-            "artist": "145",
-            "match": 1,
-            "playcount": 16000000
-        },
-        {
             "name": "Social cohesion and integration",
             "id": "198",
             "artist": "198",
-            "match": 1,
-            "playcount": 3000000
-        },
-        {
-            "name": "Sustainable Development",
-            "id": "145",
-            "artist": "145",
-            "match": 1,
-            "playcount": 16000000
-        },
-        {
-            "name": "Social cohesion and integration",
-            "id": "198",
-            "artist": "198",
-            "match": 1,
-            "playcount": 3000000
-        },
-        {
-            "name": "Sustainable Development",
-            "id": "145",
-            "artist": "145",
-            "match": 1,
-            "playcount": 16000000
-        },
-        {
-            "name": "Sustainable Development",
-            "id": "145",
-            "artist": "145",
-            "match": 1,
-            "playcount": 16000000
-        },
-        {
-            "name": "Biodiversity",
-            "id": "514",
-            "artist": "514",
-            "match": 1,
-            "playcount": 5000000
-        },
-        {
-            "name": "Sustainable Development",
-            "id": "145",
-            "artist": "145",
-            "match": 1,
-            "playcount": 16000000
-        },
-        {
-            "name": "Urban and regional planning",
-            "id": "530",
-            "artist": "530",
             "match": 1,
             "playcount": 3000000
         },
@@ -363,20 +160,6 @@
             "artist": "102",
             "match": 1,
             "playcount": 3000000
-        },
-        {
-            "name": "ENVIRONMENTAL POLICIES",
-            "id": "368",
-            "artist": "368",
-            "match": 1,
-            "playcount": 5000000
-        },
-        {
-            "name": "Sustainable Development",
-            "id": "145",
-            "artist": "145",
-            "match": 1,
-            "playcount": 16000000
         },
         {
             "name": "Regions and local development",
@@ -386,158 +169,11 @@
             "playcount": 2000000
         },
         {
-            "name": "Agriculture",
-            "id": "827",
-            "artist": "827",
-            "match": 1,
-            "playcount": 5000000
-        },
-        {
-            "name": "Climate change",
-            "id": "752",
-            "artist": "752",
-            "match": 1,
-            "playcount": 5000000
-        },
-        {
-            "name": "Natural resources",
-            "id": "823",
-            "artist": "823",
-            "match": 1,
-            "playcount": 6000000
-        },
-        {
-            "name": "Water",
-            "id": "801",
-            "artist": "801",
-            "match": 1,
-            "playcount": 3000000
-        },
-        {
-            "name": "Agriculture",
-            "id": "827",
-            "artist": "827",
-            "match": 1,
-            "playcount": 5000000
-        },
-        {
-            "name": "Forestry",
-            "id": "102",
-            "artist": "102",
-            "match": 1,
-            "playcount": 3000000
-        },
-        {
-            "name": "Air Pollution",
-            "id": "783",
-            "artist": "783",
-            "match": 1,
-            "playcount": 3000000
-        },
-        {
-            "name": "Biodiversity",
-            "id": "514",
-            "artist": "514",
-            "match": 1,
-            "playcount": 5000000
-        },
-        {
-            "name": "Climate change",
-            "id": "752",
-            "artist": "752",
-            "match": 1,
-            "playcount": 5000000
-        },
-        {
-            "name": "Natural resources",
-            "id": "823",
-            "artist": "823",
-            "match": 1,
-            "playcount": 6000000
-        },
-        {
-            "name": "Sustainable Development",
-            "id": "145",
-            "artist": "145",
-            "match": 1,
-            "playcount": 16000000
-        },
-        {
-            "name": "Agriculture",
-            "id": "827",
-            "artist": "827",
-            "match": 1,
-            "playcount": 5000000
-        },
-        {
             "name": "Fisheries",
             "id": "830",
             "artist": "830",
             "match": 1,
             "playcount": 1000000
-        },
-        {
-            "name": "Food",
-            "id": "813",
-            "artist": "813",
-            "match": 1,
-            "playcount": 2000000
-        },
-        {
-            "name": "Forestry",
-            "id": "102",
-            "artist": "102",
-            "match": 1,
-            "playcount": 3000000
-        },
-        {
-            "name": "Tourism",
-            "id": "359",
-            "artist": "359",
-            "match": 1,
-            "playcount": 2000000
-        },
-        {
-            "name": "Air Pollution",
-            "id": "783",
-            "artist": "783",
-            "match": 1,
-            "playcount": 3000000
-        },
-        {
-            "name": "Biodiversity",
-            "id": "514",
-            "artist": "514",
-            "match": 1,
-            "playcount": 5000000
-        },
-        {
-            "name": "Climate change",
-            "id": "752",
-            "artist": "752",
-            "match": 1,
-            "playcount": 5000000
-        },
-        {
-            "name": "Energy",
-            "id": "760",
-            "artist": "760",
-            "match": 1,
-            "playcount": 4000000
-        },
-        {
-            "name": "Natural resources",
-            "id": "823",
-            "artist": "823",
-            "match": 1,
-            "playcount": 6000000
-        },
-        {
-            "name": "Water",
-            "id": "801",
-            "artist": "801",
-            "match": 1,
-            "playcount": 3000000
         },
         {
             "name": "Consumers",
@@ -554,13 +190,6 @@
             "playcount": 1000000
         },
         {
-            "name": "Social cohesion and integration",
-            "id": "198",
-            "artist": "198",
-            "match": 1,
-            "playcount": 3000000
-        },
-        {
             "name": "Education",
             "id": "758",
             "artist": "758",
@@ -568,53 +197,11 @@
             "playcount": 1000000
         },
         {
-            "name": "Science and Research",
-            "id": "799",
-            "artist": "799",
-            "match": 1,
-            "playcount": 2000000
-        },
-        {
-            "name": "Administration",
-            "id": "320",
-            "artist": "320",
-            "match": 1,
-            "playcount": 2000000
-        },
-        {
             "name": "Citizens' rights",
             "id": "1319",
             "artist": "1319",
             "match": 1,
             "playcount": 1000000
-        },
-        {
-            "name": "Regions and local development",
-            "id": "94",
-            "artist": "94",
-            "match": 1,
-            "playcount": 2000000
-        },
-        {
-            "name": "Regulatory policies",
-            "id": "828",
-            "artist": "828",
-            "match": 1,
-            "playcount": 2000000
-        },
-        {
-            "name": "Sustainable Development",
-            "id": "145",
-            "artist": "145",
-            "match": 1,
-            "playcount": 16000000
-        },
-        {
-            "name": "Urban and regional planning",
-            "id": "530",
-            "artist": "530",
-            "match": 1,
-            "playcount": 3000000
         },
         {
             "name": "Development Cooperation",
@@ -636,34 +223,6 @@
             "artist": "815",
             "match": 1,
             "playcount": 1000000
-        },
-        {
-            "name": "Economy",
-            "id": "770",
-            "artist": "770",
-            "match": 1,
-            "playcount": 2000000
-        },
-        {
-            "name": "Energy",
-            "id": "760",
-            "artist": "760",
-            "match": 1,
-            "playcount": 4000000
-        },
-        {
-            "name": "Natural resources",
-            "id": "823",
-            "artist": "823",
-            "match": 1,
-            "playcount": 6000000
-        },
-        {
-            "name": "Sustainable Development",
-            "id": "145",
-            "artist": "145",
-            "match": 1,
-            "playcount": 16000000
         }
     ],
     "links": [
