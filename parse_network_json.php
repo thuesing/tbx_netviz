@@ -1,4 +1,6 @@
 <?php
+// Achtung im Tag counter sind massiv leere einträge
+
 error_reporting(E_ALL);
 
 require_once 'exhibit-json-parser.inc.php';
@@ -18,13 +20,14 @@ $nids = array_keys($res['node']);
 // $nids= array($res[0]);
 
 $nodes = $links = array();
+$tag_count = array();
 
 /*
  * nodes
  */
 
 
-foreach ($nids as $id) {
+foreach ($nids as $id) { // node entries and edges
 
   	$wrapper = entity_metadata_wrapper('node', $id);
 
@@ -35,9 +38,12 @@ foreach ($nids as $id) {
 
 	foreach ($wrapper->field_policy_areas->value() as $val) {
 	   $val = (object) $val;
+	   if(empty($val->name)) continue; // empty vals will crash viz
+	   $tag_count[$val->name]++; // Tag counter
 	    $term = array(
 			'name' => $val->name,
-			'id' => $val->tid
+			'id' => $val->tid,
+      		'artist' => $val->tid
 	    );
 	    $nodes[] = $term;
 	    $terms[$val->tid] = $val->name;
@@ -64,6 +70,13 @@ foreach ($nids as $id) {
 	/* end edges */
 
 } // foreach ($nids as $id) 
+
+// Tag count
+foreach ($nodes as &$term) {
+        $count = $tag_count[$term['name']] ;
+        $term['match'] = 1;
+        $term['playcount'] = $count * 1000000;    	
+}
 
 //print_r($nodes);
 
