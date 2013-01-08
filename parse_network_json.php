@@ -1,32 +1,75 @@
 <?php
+error_reporting(E_ALL);
 
-# for each expert
+require_once 'exhibit-json-parser.inc.php';
+require_once 'exhibit-taxo-parser.inc.php';
 
-	# foreach term in policy area
+$query = new EntityFieldQuery();
 
-		# schreibe term
-			# nach term dict  
-			# "nodes": [ {name, id, url, count} , .. ]
-	
+$for_type = 'expert';
 
-		# screibe
-		# "links": [ {source, target} , .. ]
+$res = $query
+->entityCondition('entity_type', 'node', '=')
+->propertyCondition('status', 1, '=')
+->propertyCondition('type', $for_type)->execute();
 
+$nids = array_keys($res['node']);
 
-# foreach in term dict nodes
+// $nids= array($res[0]);
 
-$node_ids = taxonomy_select_nodes(#term->id);
-$res = get nodes for $node_ids
+$nodes = $links = array();
 
-foreach $res
-  if not expert
-  	unset from res
-
-
-term dict->nodes->name count = $res->count
+/*
+ * nodes
+ */
 
 
+foreach ($nids as $id) {
 
-.
+  	$wrapper = entity_metadata_wrapper('node', $id);
+
+    // print_r($wrapper->getPropertyInfo());
+    // print_r($wrapper->title->value());
+
+  	$terms = array(); // store for edges
+
+	foreach ($wrapper->field_policy_areas->value() as $val) {
+	   $val = (object) $val;
+	    $term = array(
+			'name' => $val->name,
+			'id' => $val->tid
+	    );
+	    $nodes[] = $term;
+	    $terms[$val->tid] = $val->name;
+	}
+
+
+
+	/*
+	 * edges for node
+	 */
+	$stack = $terms = array_keys($terms);
+
+	while ($x = array_pop ( $stack )) {
+		$diff = array_diff($terms, array($x));
+		$y = array_fill_keys($diff, $x);
+		//print_r($y);
+		foreach ($y as $target => $source) {
+			$links[] = array(
+					'source' => $source,
+					'target' => $target
+				);
+		}
+	}
+	/* end edges */
+
+} // foreach ($nids as $id) 
+
+print_r($nodes);
+
+print_r($links);
+
+
+
 
 
